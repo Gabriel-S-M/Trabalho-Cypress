@@ -1,7 +1,7 @@
 describe('Teste - revisão', () => {
 
   beforeEach(() => {
-    cy.visit('http://localhost:8000');
+    cy.visit('http://127.0.0.1:5500/index.html');
   });
 
   it('Login com Espera Explícita', () => {
